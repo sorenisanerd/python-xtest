@@ -17,6 +17,7 @@ setup(name="xtest",
           "Programming Language :: Python",
           "Topic :: Software Development :: Libraries :: Python Modules",
           ],
+      install_requires=['Pyrex'],
       ext_modules=[
         Extension("xtest",
                   ["xtest.pyx"],
